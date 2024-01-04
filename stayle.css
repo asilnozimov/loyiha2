@@ -1,0 +1,78 @@
+.salom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1 i{
+    margin: 10px;
+    color: white;
+}
+.header2 p{
+    margin: 10px;
+}
+.work .container{
+    background-image: linear-gradient(#6813cc,blue);
+    height: 80vh;
+    border-radius: 20px;
+    margin: 30px auto;
+
+}
+.work .row .fa-check{
+    color: #ff0844;
+}
+.work .fa-star{
+    color:#F83600;
+}
+#work-bolk-2{
+    margin-top:50px;
+    padding: 35px;
+}
+#work-bolk-2 img{
+    width:33%;
+}
+#work-bolk-2 .card{
+    padding: 70px;
+}
+.work-blok-2 .text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #7D889A;
+}
+/* button-group */
+.button-group{
+    display: flex;
+    justify-content: center;
+}
+.popular{
+    width: 100%;
+  
+}
+.col{
+    color: #F83600;
+}
+.asilbek i{
+    background-image: linear-gradient(#6A11cb,#306bf7);
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.asilbek .card:hover{
+    background-image: linear-gradient(#6A11cb,#306bf7);
+    color: white;
+    transition: all 0,5s;
+    cursor: pointer;
+
+}
+.asilbek .card:hover i{
+    background-image: none;
+    background-color: white;
+    color: #306bf7;
+}
+#as{
+    color: blue;
+    transition: 1s;
+    cursor: pointer;
+}
